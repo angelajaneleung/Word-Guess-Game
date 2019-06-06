@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower&display=swap" rel="stylesheet">
+    <title>Word Guess Game</title>
+</head>
+<body>
+        <img id="chips" src="assets/images/chips.jpg"></img>
+<!-- //tittle of the game// -->
+        <div class="row">
+        <header class="col-12">
+        <h1>Guess the Chip!?</h1>
+        </header>
+        </div>
+    <!-- //container holding the game// -->
+     <div  class="container">
+    <!-- //where the correct letters go// -->
+           
+            <div class="row">
+                <form class="col-12">
+                         <div class="row">
+                         <div class="col-12"> <p id="winstracker" class="winloss">Wins:</p> 
+                                             <p id="losstracker" class="winloss">Losses:</p>
+                         </div>
+                         </div>
+
+                         <div class="row">
+                         <div class="col-12"> <p id="wordC">Current Word:
+                         </p> 
+                         
+                         </div>
+                         </div>
+                </form> 
+            </div>
+                
+        
+    <!-- //3 boxes, 1)guesses left 2)imgaes 3)guessed letters// -->
+            <div class="row">
+                <div class="col-4"><h2 class="h"> Guesses Remaining</h2>
+                        <span id="remainingGuesses"></span>
+                </div>
+                <div class="col-4"><img id="start" src="assets/images/lays.png"></img>
+                        <!-- <span id="imageFrito" src="assets/images/fritos.png" ></span>
+                        <span id="imageSun" src="assets/images/sunchips.png"></span>
+                        <span id="imageDori" src="assets/images/dortios.png"></span>
+                        <span id="imageSmart" src="assets/images/smartfood.png"></span> -->
+                       
+                 </div>
+
+                <div class="col-4"><h3 class="h">Letters Already Guessed</h3>
+                        <span id="guessedLetters"></span>
+                
+                </div>
+            </div>
+
+    </div>
+ 
+ <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

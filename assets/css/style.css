@@ -1,0 +1,52 @@
+
+
+header{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+#chips{
+    height:100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -3;
+}
+form{
+    height: 300px;
+    width: 1200px;
+    border: solid 3px black;
+    border-bottom: none;
+}
+.col-4{
+    height: 300px;
+    width: 250px;
+    border: solid 3px black;
+}
+.h,#remainingGuesses,#guessedLetters{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.winloss{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+#wordC{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    text-align: center;
+
+}
+#start{
+    height: 100%;
+  padding-left: 60px;
+}
+
+ 
